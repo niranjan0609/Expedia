@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Expedia test suite" verbose="1" >
+
+    <test name="Book a Rental Car">
+        <parameter name="browserType" value="chrome" />
+        <parameter name="appURL" value="https://www.expedia.com/" />
+        <classes>
+            <class name="com.Tests.CarRentalBookingTest" />
+        </classes>
+    </test>
+
+<!--
+    <test name="Book a Rental Car-NagativeTest">
+        <parameter name="browserType" value="chrome" />
+        <parameter name="" value="" />
+        <parameter name="" value="" />
+        <parameter name="appURL" value="https://www.expedia.com/" />
+
+        <classes>
+            <class name="com.Tests.CarRentalBookingTest" />
+        </classes>
+    </test>
+-->
+
+
+</suite>
